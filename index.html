@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinTool: The Ultimate Tool</title>
+    <style>
+        body {
+            background: url('https://4kwallpapers.com/images/wallpapers/astronaut-gargantua-3840x2160-9613.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Courier New', Courier, monospace;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+        }
+        .showcase {
+            backdrop-filter: blur(3px);
+            background: rgba(20, 20, 20, 0.8);
+            padding: 40px;
+            border-radius: 20px;
+            border: 2px solid rgba(255, 0, 0, 0.6);
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .showcase:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+        }
+        h1 {
+            font-size: 3.5em;
+            color: #ff0000;
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 1);
+        }
+        p {
+            font-size: 1.5em;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: #ff0000;
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #990000;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+        }
+        .spooky-glow {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6);
+            }
+            50% {
+                text-shadow: 0 0 20px rgba(255, 0, 0, 1), 0 0 40px rgba(255, 0, 0, 1);
+            }
+            100% {
+                text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="showcase">
+        <h1 class="spooky-glow">MinTool</h1>
+        <p>Unlock the ultimate power. Control. Automate. Dominate.<br>Dare to download? The choice is yours.</p>
+        <a href="https://github.com/AnonymousElixir/MinTool/releases/download/V1.0.0/MinTool.exe" class="download-btn">Download... If You Dare</a>
+    </div>
+</div>
+
+</body>
+</html>
